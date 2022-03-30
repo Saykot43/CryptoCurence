@@ -4,6 +4,7 @@ import Homepage from "./components/Homepage/Homepage";
 import Header from "./components/Header/Header";
 import Coins from "./components/Coins/Coins";
 import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Route path="/coins" element={<Coins />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Footer />
     </div>
   );
 };
